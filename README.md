@@ -1,6 +1,16 @@
 # Node - Desafio 1 (Novo)
 
-Descrição.
+[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/node-desafio1-novo/blob/master/LICENSE)
+![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/node-desafio1-novo.svg)
+![](https://img.shields.io/github/last-commit/osvaldokalvaitir/node-desafio1-novo.svg?color=red)
+![](https://img.shields.io/github/languages/top/osvaldokalvaitir/node-desafio1-novo.svg?color=yellow)
+![](https://img.shields.io/github/languages/count/osvaldokalvaitir/node-desafio1-novo.svg?color=lightgrey)
+![](https://img.shields.io/github/languages/code-size/osvaldokalvaitir/node-desafio1-novo.svg)
+![](https://img.shields.io/github/repo-size/osvaldokalvaitir/node-desafio1-novo.svg?color=blueviolet)
+[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
+![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+
+Aplicação usando Node.js, Express, Nodemon e Insomnia.
 
 ## Desafio 01. Conceitos do NodeJS
 
