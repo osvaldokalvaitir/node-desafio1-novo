@@ -49,3 +49,64 @@ Se eu chamar a rota `POST /projects` repassando `{ id: 1, title: 'Novo projeto' 
 - Crie um middleware que será utilizado em todas rotas que recebem o ID do projeto nos parâmetros da URL que verifica se o projeto com aquele ID existe. Se não existir retorne um erro, caso contrário permita a requisição continuar normalmente;
 
 - Crie um middleware global chamado em todas requisições que imprime (`console.log`) uma contagem de quantas requisições foram feitas na aplicação até então;
+
+## Índice
+
+- [Desenvolvimento](#desenvolvimento)
+
+  - [Configuração do Ambiente](#configuração-do-ambiente)
+
+  - [Instalação do Projeto](#instalação-do-projeto)
+
+  - [Execução do Projeto](#execução-do-projeto)
+
+- [Utilizados no Projeto](#utilizados-no-projeto)
+
+  - [Bibliotecas](#bibliotecas)
+
+  - [APIs](#apis)
+
+  - [Ferramentas](#ferramentas)
+  
+## Desenvolvimento
+
+### Configuração do Ambiente
+
+Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/README.md) e siga `Configuração de Ambiente`.
+
+### Instalação do Projeto
+
+Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Instalação de Projeto`.
+
+### Execução do Projeto
+
+Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Execução de Projeto para Desenvolvimento`.
+
+## Utilizados no Projeto
+
+### Bibliotecas
+
+- [Express](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/express.md)
+
+- [Nodemon](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/nodemon.md)
+
+### Ferramentas
+
+- [Insomnia](https://github.com/osvaldokalvaitir/projects-settings/blob/master/api/insomnia.md)
+
+### APIs
+
+- **Interna**
+
+  - **Rotas**
+
+    - Projetos
+
+      - Adiciona novos projetos
+      - Lista todos os projetos
+      - Edita dados de projetos existentes
+      - Exclui projetos existentes
+
+    - Tarefas
+
+      - Adiciona novas tarefas a um projeto
