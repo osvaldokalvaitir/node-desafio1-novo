@@ -1,8 +1,8 @@
 {
-  "name": "node-desafio1-novo",
+  "name": "nodejs-desafio1-novo",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/osvaldokalvaitir/node-desafio1-novo.git",
+  "repository": "https://github.com/osvaldokalvaitir/nodejs-desafio1-novo.git",
   "author": "Osvaldo Kalvaitir Filho <osvaldokalvaitir@outlook.com>",
   "license": "MIT",
   "scripts": {
