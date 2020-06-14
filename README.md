@@ -90,10 +90,6 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 - [Nodemon](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/nodemon.md)
 
-### Ferramentas
-
-- [Insomnia](https://github.com/osvaldokalvaitir/projects-settings/blob/master/api/insomnia.md)
-
 ### APIs
 
 - **Interna**
@@ -110,3 +106,7 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
     - Tarefas
 
       - Adiciona novas tarefas a um projeto
+
+### Ferramentas
+
+- [Insomnia](https://github.com/osvaldokalvaitir/projects-settings/blob/master/api-client/insomnia.md)
