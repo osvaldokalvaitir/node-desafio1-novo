@@ -1,112 +1,63 @@
-# Node.js - Desafio 1 (Novo)
+<h1 align="center">
+    <img src="/.github/assets/logo.png"
+    width="200px"
+    alt="Logo" />
+</h1>
 
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/nodejs-desafio1-novo/blob/master/LICENSE)
-![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/nodejs-desafio1-novo.svg)
-![](https://img.shields.io/github/last-commit/osvaldokalvaitir/nodejs-desafio1-novo.svg?color=red)
-![](https://img.shields.io/github/languages/top/osvaldokalvaitir/nodejs-desafio1-novo.svg?color=yellow)
-![](https://img.shields.io/github/languages/count/osvaldokalvaitir/nodejs-desafio1-novo.svg?color=lightgrey)
-![](https://img.shields.io/github/languages/code-size/osvaldokalvaitir/nodejs-desafio1-novo.svg)
-![](https://img.shields.io/github/repo-size/osvaldokalvaitir/nodejs-desafio1-novo.svg?color=blueviolet)
-[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
-![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+<h3 align="center">
+  Node.js - GoStack 9 Challenge 1
+</h3>
 
-Aplicação usando Node.js, Express, Nodemon e Insomnia.
+<p align="center">
+  :round_pushpin: Application using Node.js, Express, Nodemon and Insomnia
+</p>
 
-## Desafio 01. Conceitos do NodeJS
+<p align="center">
+  :muscle: Click <a href="/.github/docs/challenge.md">here</a> to see the challenge description
+</p>
 
-Crie uma aplicação do zero utilizando Express.
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/osvaldokalvaitir/nodejs-gostack9-challenge1.svg?color=00A83A">
 
-Essa aplicação será utilizada para armazenar projetos e suas tarefas.
+  <img alt="GitHub language top" src="https://img.shields.io/github/languages/top/osvaldokalvaitir/nodejs-gostack9-challenge1.svg?color=00A83A">
 
-### Rotas
+  <a href="https://kalvaitir.com/">
+    <img alt="Made by Kalvaitir" src="https://img.shields.io/badge/made%20by-Kalvaitir-00A83A">
+  </a>
 
-- `POST /projects`: A rota deve receber `id` e `title` dentro corpo de cadastrar um novo projeto dentro de um array no seguinte formato: `{ id: "1", title: 'Novo projeto', tasks: [] }`; Certifique-se de enviar tanto o ID quanto o título do projeto no formato string com àspas duplas.
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-00A83A">
+</p>
 
-- `GET /projects`: Rota que lista todos projetos e suas tarefas;
+<p align="center">
+  <a href="#wrench-install-and-run">Install and run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#memo-license">License</a>
+</p>
 
-- `PUT /projects/:id`: A rota deve alterar apenas o título do projeto com o `id` presente nos parâmetros da rota;
+## :wrench: Install and run
 
-- `DELETE /projects/:id`: A rota deve deletar o projeto com o `id` presente nos parâmetros da rota;
+Open terminal:
 
-- `POST /projects/:id/tasks`: A rota deve receber um campo `title` e armazenar uma nova tarefa no array de tarefas de um projeto específico escolhido através do `id` presente nos parâmetros da rota;
+```sh
+# Clone this repo
+git clone https://github.com/osvaldokalvaitir/nodejs-gostack9-challenge1
 
-#### Exemplo
+# Entry in folder
+cd nodejs-gostack9-challenge1
 
-Se eu chamar a rota `POST /projects` repassando `{ id: 1, title: 'Novo projeto' }` e a rota `POST /projects/1/tasks` com `{ title: 'Nova tarefa' }`, meu array de projetos deve ficar assim:
+# Install deps with npm or yarn
+npm install | yarn
 
-```js
-[
-  {
-    id: "1",
-    title: 'Novo projeto',
-    tasks: ['Nova tarefa']
-  }
-]
+# Launch the app with npm or yarn
+npm dev | yarn dev
 ```
 
-### Middlewares
+Click to learn more about the tools used: [Insomnia](https://github.com/osvaldokalvaitir/awesome/blob/main/src/api-clients/insomnia/insomnia.md).
 
-- Crie um middleware que será utilizado em todas rotas que recebem o ID do projeto nos parâmetros da URL que verifica se o projeto com aquele ID existe. Se não existir retorne um erro, caso contrário permita a requisição continuar normalmente;
+## :memo: License
 
-- Crie um middleware global chamado em todas requisições que imprime (`console.log`) uma contagem de quantas requisições foram feitas na aplicação até então;
+This project is under the MIT license. See [LICENSE](/LICENSE) for more information.
 
-## Índice
+---
 
-- [Desenvolvimento](#desenvolvimento)
-
-  - [Configuração do Ambiente](#configuração-do-ambiente)
-
-  - [Instalação do Projeto](#instalação-do-projeto)
-
-  - [Execução do Projeto](#execução-do-projeto)
-
-- [Utilizados no Projeto](#utilizados-no-projeto)
-
-  - [Bibliotecas](#bibliotecas)
-
-  - [APIs](#apis)
-
-  - [Ferramentas](#ferramentas)
-  
-## Desenvolvimento
-
-### Configuração do Ambiente
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/README.md) e siga `Configuração de Ambiente`.
-
-### Instalação do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Instalação de Projeto`.
-
-### Execução do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Execução de Projeto para Desenvolvimento`.
-
-## Utilizados no Projeto
-
-### Bibliotecas
-
-- [Express](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/express.md)
-
-- [Nodemon](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/nodemon.md)
-
-### APIs
-
-- **Interna**
-
-  - **Rotas**
-
-    - Projetos
-
-      - Adiciona novos projetos
-      - Lista todos os projetos
-      - Edita dados de projetos existentes
-      - Exclui projetos existentes
-
-    - Tarefas
-
-      - Adiciona novas tarefas a um projeto
-
-### Ferramentas
-
-- [Insomnia](https://github.com/osvaldokalvaitir/projects-settings/blob/master/api-client/insomnia.md)
+<p align="center">
+Developed with 💚 by <a href="https://www.linkedin.com/in/osvaldokalvaitir">Osvaldo Kalvaitir Filho</a>
+</p>
